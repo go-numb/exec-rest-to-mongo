@@ -3,9 +3,10 @@ package main
 import (
 	"time"
 
+	log "github.com/sirupsen/logrus"
+
 	"gopkg.in/mgo.v2"
 
-	"github.com/apex/log"
 	"github.com/go-numb/go-bitflyer/auth"
 	"github.com/go-numb/go-bitflyer/v1"
 	"github.com/go-numb/go-bitflyer/v1/public/executions"
